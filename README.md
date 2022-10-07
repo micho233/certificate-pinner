@@ -15,7 +15,7 @@ The [Swift Package Manager](https://swift.org/package-manager/) is a tool for au
 Once you have your Swift package set up, adding CertificatePinner as a dependency is as easy as adding it to the `dependencies` value of your `Package.swift`.
 ```swift
 dependencies: [
-    .package(url: "https://github.com/micho233/CertificatePinner.git", .upToNextMajor(from: "1.0.0"))
+    .package(url: "https://github.com/micho233/certificate-pinner.git", .upToNextMajor(from: "1.0.0"))
 ]
 ```
 ### Cocoapods
@@ -26,7 +26,7 @@ pod 'CertificatePinner'
 ### Carthage
 [Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks. To integrate CertificatePinner into your Xcode project using Carthage, specify it in your `Cartfile`:
 ```ruby
-github "micho233/CertificatePinner"
+github "micho233/certificate-pinner"
 ```
 
 # Usage
